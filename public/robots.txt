@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://website-react-flame-chi.vercel.app/sitemap.xml

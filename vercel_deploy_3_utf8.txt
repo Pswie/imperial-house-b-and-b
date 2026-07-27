@@ -1,0 +1,84 @@
+﻿node.exe : Vercel CLI 57.0.0 
+(Node.js 22.19.0)
+In riga:1 car:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (Vercel   
+  CLI 57.0.0 (Node.js 22.1   
+ 9.0):String) [], RemoteE    
+xception
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+Retrieving projectÔÇª
+Deploying villa-langellottis-
+projects/website-react
+Uploading 
+[--------------------] 
+(0.0B/6.5KB)
+Uploading 
+[===========---------] 
+(3.7KB/6.5KB)
+Uploading 
+[==============------] 
+(4.7KB/6.5KB)
+Uploading 
+[====================] 
+(6.5KB/6.5KB)
+  Inspect         https://ver
+cel.com/villa-langellottis-pr
+ojects/website-react/ET1V5vjc
+tiAM5Kx84Q1KcZAXS2p9
+  Production      https://web
+site-react-h7mjot4bk-villa-la
+ngellottis-projects.vercel.ap
+p
+BuildingÔÇª
+BuildingÔÇª
+Running build in Washington, 
+D.C., USA (East) ÔÇô iad1
+Build machine configuration: 
+2 cores, 8 GB
+Retrieving list of 
+deployment files...
+Downloading 54 deployment 
+files...
+Restored build cache from 
+previous deployment (BSBD4JnV
+SJVFUiWjodNzGfcxeEdt)
+Running "vercel build"
+Vercel CLI 56.5.0
+Installing dependencies...
+up to date in 692ms
+11 packages are looking for 
+funding
+run `npm fund` for details
+Running "npm run build"
+> website-react@0.0.0 build
+> tsc -b && vite build
+[2K[1A[2K[G  Production  
+    https://website-react-h7m
+jot4bk-villa-langellottis-pro
+jects.vercel.app
+CompletingÔÇª
+Ôû▓ Aliased         https://w
+ebsite-react-flame-chi.vercel
+.app
+
+Ô£ô Ready in 21s
+
+Common next commands:
+- `vercel inspect website-rea
+ct-h7mjot4bk-villa-langellott
+is-projects.vercel.app 
+--logs`
+- `vercel redeploy website-re
+act-h7mjot4bk-villa-langellot
+tis-projects.vercel.app`
+https://website-react-h7mjot4bk-villa-langellottis-projects.vercel.app

@@ -1,0 +1,94 @@
+﻿node.exe : Vercel CLI 
+57.0.0 (Node.js 
+22.19.0)
+In riga:1 car:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Vercel CLI 57   
+ .0.0 (Node.js 22.1    
+9.0):String) [], R    
+emoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Retrieving projectÔÇª
+Deploying villa-langell
+ottis-projects/website-
+react
+Uploading 
+[--------------------] 
+(0.0B/22KB)
+Uploading 
+[==================--] 
+(20.3KB/22KB)
+Uploading 
+[====================] 
+(22.0KB/22KB)
+  Inspect         https
+://vercel.com/villa-lan
+gellottis-projects/webs
+ite-react/BSBD4JnVSJVFU
+iWjodNzGfcxeEdt
+  Production      https
+://website-react-f0ztj3
+j9z-villa-langellottis-
+projects.vercel.app
+BuildingÔÇª
+BuildingÔÇª
+Running build in 
+Washington, D.C., USA 
+(East) ÔÇô iad1
+Build machine 
+configuration: 2 
+cores, 8 GB
+Retrieving list of 
+deployment files...
+Previous build caches 
+not available.
+Downloading 51 
+deployment files...
+Running "vercel build"
+Vercel CLI 56.5.0
+Installing 
+dependencies...
+added 35 packages in 4s
+11 packages are 
+looking for funding
+run `npm fund` for 
+details
+Running "npm run build"
+> website-react@0.0.0 
+build
+> tsc -b && vite build
+[2K[1A[2K[G  
+Production      https:/
+/website-react-f0ztj3j9
+z-villa-langellottis-pr
+ojects.vercel.app
+CompletingÔÇª
+Ôû▓ Aliased         htt
+ps://website-react-flam
+e-chi.vercel.app
+
+Ô£ô Ready in 22s
+
+Common next commands:
+- `vercel inspect websi
+te-react-f0ztj3j9z-vill
+a-langellottis-projects
+.vercel.app --logs`
+- `vercel redeploy webs
+ite-react-f0ztj3j9z-vil
+la-langellottis-project
+s.vercel.app`
+https://website-react-f0ztj3j9z-villa-langellottis-projects.vercel.app
