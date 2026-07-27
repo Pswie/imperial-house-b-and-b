@@ -225,7 +225,7 @@ const Territorio = () => (
             </p>
           </div>
           <div className="photo-item slide-up delay-200">
-            <img src="/pompei.jpg" alt="Pompei Ruins" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+            <img src="https://images.unsplash.com/photo-1549480392-f04bf44a7fef?auto=format&fit=crop&q=80&w=800" alt="Pompei Ruins" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
           </div>
         </div>
 
