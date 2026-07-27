@@ -1,0 +1,73 @@
+﻿node.exe : Vercel CLI 
+57.0.0 (Node.js 
+22.19.0)
+In riga:1 car:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Vercel CLI 57   
+ .0.0 (Node.js 22.1    
+9.0):String) [], R    
+emoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Retrieving projectÔÇª
+Deploying villa-langell
+ottis-projects/website-
+react
+Uploading 
+[--------------------] 
+(0.0B/1KB)
+Uploading 
+[====================] 
+(1.0KB/1KB)
+  Inspect         https
+://vercel.com/villa-lan
+gellottis-projects/webs
+ite-react/DTBe29Y58xZP6
+H5KjvfWt99D3CDC
+  Production      https
+://website-react-l6llhu
+4p8-villa-langellottis-
+projects.vercel.app
+BuildingÔÇª
+BuildingÔÇª
+Running build in 
+Washington, D.C., USA 
+(East) ÔÇô iad1
+Build machine 
+configuration: 2 
+cores, 8 GB
+Retrieving list of 
+deployment files...
+Previous build caches 
+not available.
+Downloading 49 
+deployment files...
+Running "vercel build"
+Vercel CLI 56.5.0
+Installing 
+dependencies...
+added 35 packages in 4s
+11 packages are 
+looking for funding
+run `npm fund` for 
+details
+Running "npm run build"
+> website-react@0.0.0 
+build
+> tsc -b && vite build
+Error: Command "npm 
+run build" exited with 
+2
+https://website-react-l6llhu4p8-villa-langellottis-projects.vercel.app

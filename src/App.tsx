@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
-import { Wine, Bed, Map, Wind, Check, ChevronRight } from 'lucide-react';
+import { Wine, Bed, Map, Check, ChevronRight } from 'lucide-react';
 import './index.css';
 
 // ScrollToTop on route change
