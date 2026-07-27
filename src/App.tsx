@@ -239,37 +239,37 @@ const Territorio = () => (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '40px', marginTop: '60px', textAlign: 'left' }}>
 
             <div>
-              <img src="/sorrento.jpg" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Sorrento" />
+              <img src="https://images.unsplash.com/photo-1612297721868-b3ba6cadd6e6?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Sorrento" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Sorrento & Costiera</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>Raggiungi in soli 30-40 minuti i pittoreschi villaggi sul mare e le scogliere a picco della Costiera Sorrentina e Amalfitana.</p>
             </div>
 
             <div>
-              <img src="/napoli.jpg" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Napoli" />
+              <img src="https://images.unsplash.com/photo-1533519808398-385ee0cb71af?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Napoli" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Centro di Napoli</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>A circa 30 minuti d'auto. Immergiti nel fascino caotico ed affascinante di Spaccanapoli, piazza del Plebiscito e la pizza più buona al mondo.</p>
             </div>
 
             <div>
-              <img src="/vesuvio.jpg" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Vesuvio" />
+              <img src="https://images.unsplash.com/photo-1541818224750-f1dbecaccf19?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Vesuvio" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Parco del Vesuvio</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>A pochi km dalla nostra struttura. Un sentiero escursionistico mozzafiato fino all'orlo del cratere del vulcano più iconico al mondo.</p>
             </div>
 
             <div>
-              <img src="/caserta.jpg" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Reggia di Caserta" />
+              <img src="https://images.unsplash.com/photo-1554284560-64213d2f2195?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Reggia di Caserta" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Reggia di Caserta</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>Visita la stupefacente residenza reale paragonabile a Versailles, con immensi giardini e fontane monumentali, a soli 45 minuti d'auto.</p>
             </div>
 
             <div>
-              <img src="/capri.jpg" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Capri" />
+              <img src="https://images.unsplash.com/photo-1606822299863-74ac5579d12a?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Capri" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Capri & Ischia</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>Tramite facili collegamenti da Sorrento o Napoli centro, le magnifiche isole del golfo offrono gite giornaliere indimenticabili.</p>
             </div>
 
             <div>
-              <img src="/paestum.jpg" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Paestum" />
+              <img src="https://images.unsplash.com/photo-1629813298616-646ca522bdc1?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Paestum" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Templi di Paestum</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>Spostandoti verso Sud potrai visitare rovine Magna-Greche impressionanti e gustare la vera mozzarella di Bufala campana locale DOP.</p>
             </div>
