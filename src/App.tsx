@@ -67,7 +67,7 @@ const Home = () => {
               <span className="eyebrow">La Nostra Proprietà</span>
               <h2 className="section-title" style={{ fontSize: '3rem', marginBottom: '1.5rem' }}>Un Rifugio Privato, Pensato per Te.</h2>
               <p style={{ color: '#666', marginBottom: '2rem', fontSize: '1.1rem' }}>
-                La struttura dell'Imperial House si sviluppa come un unico, imponente spazio privato. Non condividerai gli ambienti con altri ospiti: l'intera suite, la sauna privata e il godibile balcone saranno a tua esclusiva disposizione.
+                La struttura dell'Imperial House si sviluppa come un unico, imponente spazio privato. Non condividerai gli ambienti con altri ospiti: l'intera suite e il godibile balcone saranno a tua esclusiva disposizione.
               </p>
               <Link to="/struttura" style={{ color: '#D4AF37', textTransform: 'uppercase', letterSpacing: '1px', fontSize: '0.9rem', display: 'flex', alignItems: 'center', fontWeight: 500 }}>
                 Vedi le foto <ChevronRight size={16} />
@@ -132,7 +132,7 @@ const Struttura = () => (
         <span className="eyebrow">Gli Ambienti</span>
         <h1 className="section-title">Eleganza in Ogni Spazio</h1>
         <p style={{ maxWidth: 700, margin: '0 auto', color: '#666' }}>
-          Esplora la nostra ampia suite. Forme armoniose e un'atmosfera da mille e una notte, il tutto condito da servizi introvabili come una sauna privata ad uso esclusivo.
+          Esplora la nostra ampia suite. Forme armoniose e un'atmosfera da mille e una notte, il tutto arricchito da comfort eccezionali per coccolarti durante il tuo soggiorno.
         </p>
       </div>
     </section>
@@ -149,20 +149,6 @@ const Struttura = () => (
           </div>
         </div>
 
-        {/* Sauna Grid */}
-        <div className="auto-grid-2" style={{ marginBottom: '80px' }}>
-          <div className="slide-up">
-            <img src="/5996594491156008955.jpg" alt="Sauna Privata" className="lux-img" />
-          </div>
-          <div className="slide-up delay-200">
-            <h3 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Sauna e Area Relax</h3>
-            <p style={{ color: '#666', fontSize: '1.1rem', marginBottom: '20px' }}>Il vero gioiello di Imperial House: una sauna ad infrarossi ad uso totalmente privato e gratuito, posizionata ad un passo dal letto e circondata da luci emozionali per un'immersione rigenerante.</p>
-            <ul style={{ listStyle: 'none', color: '#666' }}>
-              <li style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}><Check size={18} color="#D4AF37" /> Cabina Sauna Privata</li>
-              <li style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}><Check size={18} color="#D4AF37" /> Luci di Cromoterapia Regolabili</li>
-            </ul>
-          </div>
-        </div>
 
         {/* Breakfast Grid */}
         <div className="auto-grid-2" style={{ marginBottom: '80px' }}>
