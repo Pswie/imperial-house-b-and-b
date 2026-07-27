@@ -286,3 +286,68 @@ section {
     font-size: 2.5rem;
   }
 }
+
+/* Taste Skills Fluid Responsive Utilities */
+.auto-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  align-items: center;
+}
+
+.auto-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.lux-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 2px;
+  /* Slight elegance */
+}
+
+.card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.mobile-first-order {
+  order: 2;
+}
+
+.mobile-second-order {
+  order: 1;
+}
+
+@media (max-width: 900px) {
+
+  .auto-grid-2,
+  .auto-grid-3 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .lux-img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+    border-radius: 0;
+  }
+
+  .card-img {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .mobile-first-order {
+    order: -1 !important;
+  }
+
+  .mobile-second-order {
+    order: 2 !important;
+  }
+}

@@ -62,7 +62,7 @@ const Home = () => {
       {/* Structure Info Section (Home) */}
       <section style={{ background: '#fff' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '80px', alignItems: 'center' }}>
+          <div className="auto-grid-2">
             <div className="slide-up">
               <span className="eyebrow">La Nostra Proprietà</span>
               <h2 className="section-title" style={{ fontSize: '3rem', marginBottom: '1.5rem' }}>Un Rifugio Privato, Pensato per Te.</h2>
@@ -74,7 +74,7 @@ const Home = () => {
               </Link>
             </div>
             <div className="slide-up delay-200">
-              <img src="/5996594491156008945.jpg" alt="Letto Imperial House" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+              <img src="/5996594491156008945.jpg" alt="Letto Imperial House" className="lux-img" />
             </div>
           </div>
         </div>
@@ -150,9 +150,9 @@ const Struttura = () => (
         </div>
 
         {/* Sauna Grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '40px', alignItems: 'center', marginBottom: '80px' }}>
+        <div className="auto-grid-2" style={{ marginBottom: '80px' }}>
           <div className="slide-up">
-            <img src="/5996594491156008955.jpg" alt="Sauna Privata" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+            <img src="/5996594491156008955.jpg" alt="Sauna Privata" className="lux-img" />
           </div>
           <div className="slide-up delay-200">
             <h3 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Sauna e Area Relax</h3>
@@ -165,11 +165,11 @@ const Struttura = () => (
         </div>
 
         {/* Breakfast Grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '40px', alignItems: 'center', marginBottom: '80px' }}>
-          <div className="slide-up delay-100" style={{ order: 2 }}>
-            <img src="/5996594491156008947.jpg" alt="Colazione Ricca" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+        <div className="auto-grid-2" style={{ marginBottom: '80px' }}>
+          <div className="slide-up delay-100 mobile-first-order">
+            <img src="/5996594491156008947.jpg" alt="Colazione Ricca" className="lux-img" />
           </div>
-          <div className="slide-up" style={{ order: 1 }}>
+          <div className="slide-up mobile-second-order">
             <h3 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Il Risveglio Perfetto</h3>
             <p style={{ color: '#666', fontSize: '1.1rem', marginBottom: '20px' }}>Offriamo un assortimento completo di prelibatezze confezionate di alta qualità. Tè, caffè, marmellate e croissant sono sempre a tua disposizione in ogni momento della giornata, non solo al risveglio.</p>
             <ul style={{ listStyle: 'none', color: '#666' }}>
@@ -180,9 +180,9 @@ const Struttura = () => (
         </div>
 
         {/* Balcony Grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '40px', alignItems: 'center' }}>
+        <div className="auto-grid-2">
           <div className="slide-up">
-            <img src="/5996594491156008946.jpg" alt="Balcone" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+            <img src="/5996594491156008946.jpg" alt="Balcone" className="lux-img" />
           </div>
           <div className="slide-up delay-200">
             <h3 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Il Tuo Balcone</h3>
@@ -213,7 +213,7 @@ const Territorio = () => (
       <div className="container">
 
         {/* Pompei Section */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: 60, alignItems: 'center', marginBottom: '100px' }}>
+        <div className="auto-grid-2" style={{ marginBottom: '100px' }}>
           <div className="slide-up">
             <span className="eyebrow" style={{ color: '#0A0A0A' }}>Archeologia</span>
             <h2 style={{ fontSize: '3rem', marginBottom: '2rem' }}>Scavi di Pompei</h2>
@@ -225,7 +225,7 @@ const Territorio = () => (
             </p>
           </div>
           <div className="photo-item slide-up delay-200">
-            <img src="https://images.unsplash.com/photo-1549480392-f04bf44a7fef?auto=format&fit=crop&q=80&w=800" alt="Pompei Ruins" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+            <img src="https://images.unsplash.com/photo-1549480392-f04bf44a7fef?auto=format&fit=crop&q=80&w=800" alt="Pompei Ruins" className="lux-img" />
           </div>
         </div>
 
@@ -236,40 +236,40 @@ const Territorio = () => (
             <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem' }}>Le Bellezze della Campania</h2>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '40px', marginTop: '60px', textAlign: 'left' }}>
+          <div className="auto-grid-3" style={{ marginTop: '60px', textAlign: 'left' }}>
 
             <div>
-              <img src="https://images.unsplash.com/photo-1612297721868-b3ba6cadd6e6?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Sorrento" />
+              <img src="https://images.unsplash.com/photo-1612297721868-b3ba6cadd6e6?auto=format&fit=crop&q=80&w=600" className="card-img" style={{ marginBottom: '20px' }} alt="Sorrento" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Sorrento & Costiera</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>Raggiungi in soli 30-40 minuti i pittoreschi villaggi sul mare e le scogliere a picco della Costiera Sorrentina e Amalfitana.</p>
             </div>
 
             <div>
-              <img src="https://images.unsplash.com/photo-1533519808398-385ee0cb71af?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Napoli" />
+              <img src="https://images.unsplash.com/photo-1533519808398-385ee0cb71af?auto=format&fit=crop&q=80&w=600" className="card-img" style={{ marginBottom: '20px' }} alt="Napoli" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Centro di Napoli</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>A circa 30 minuti d'auto. Immergiti nel fascino caotico ed affascinante di Spaccanapoli, piazza del Plebiscito e la pizza più buona al mondo.</p>
             </div>
 
             <div>
-              <img src="https://images.unsplash.com/photo-1541818224750-f1dbecaccf19?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Vesuvio" />
+              <img src="https://images.unsplash.com/photo-1541818224750-f1dbecaccf19?auto=format&fit=crop&q=80&w=600" className="card-img" style={{ marginBottom: '20px' }} alt="Vesuvio" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Parco del Vesuvio</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>A pochi km dalla nostra struttura. Un sentiero escursionistico mozzafiato fino all'orlo del cratere del vulcano più iconico al mondo.</p>
             </div>
 
             <div>
-              <img src="https://images.unsplash.com/photo-1554284560-64213d2f2195?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Reggia di Caserta" />
+              <img src="https://images.unsplash.com/photo-1554284560-64213d2f2195?auto=format&fit=crop&q=80&w=600" className="card-img" style={{ marginBottom: '20px' }} alt="Reggia di Caserta" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Reggia di Caserta</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>Visita la stupefacente residenza reale paragonabile a Versailles, con immensi giardini e fontane monumentali, a soli 45 minuti d'auto.</p>
             </div>
 
             <div>
-              <img src="https://images.unsplash.com/photo-1606822299863-74ac5579d12a?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Capri" />
+              <img src="https://images.unsplash.com/photo-1606822299863-74ac5579d12a?auto=format&fit=crop&q=80&w=600" className="card-img" style={{ marginBottom: '20px' }} alt="Capri" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Capri & Ischia</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>Tramite facili collegamenti da Sorrento o Napoli centro, le magnifiche isole del golfo offrono gite giornaliere indimenticabili.</p>
             </div>
 
             <div>
-              <img src="https://images.unsplash.com/photo-1629813298616-646ca522bdc1?auto=format&fit=crop&q=80&w=600" style={{ width: '100%', height: '220px', objectFit: 'cover', marginBottom: '20px' }} alt="Paestum" />
+              <img src="https://images.unsplash.com/photo-1629813298616-646ca522bdc1?auto=format&fit=crop&q=80&w=600" className="card-img" style={{ marginBottom: '20px' }} alt="Paestum" />
               <h4 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Templi di Paestum</h4>
               <p style={{ color: '#666', fontSize: '0.95rem' }}>Spostandoti verso Sud potrai visitare rovine Magna-Greche impressionanti e gustare la vera mozzarella di Bufala campana locale DOP.</p>
             </div>
