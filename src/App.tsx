@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
-import { Wine, Bed, Map, Check, ChevronRight } from 'lucide-react';
+import { Wine, Bed, Map, Check, ChevronRight, Menu, X } from 'lucide-react';
 import './index.css';
 
 // ScrollToTop on route change
@@ -15,12 +15,22 @@ function ScrollToTop() {
 // Navbar Component
 const Navbar = () => {
   const loc = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
   const isActive = (path: string) => loc.pathname === path ? 'active' : '';
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [loc.pathname]);
 
   return (
     <nav className="navbar fade-in">
       <Link to="/" className="nav-brand">Imperial House</Link>
-      <div className="nav-links">
+
+      <button className="mobile-menu-btn" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
+        {isOpen ? <X size={28} /> : <Menu size={28} />}
+      </button>
+
+      <div className={`nav-links ${isOpen ? 'open' : ''}`}>
         <Link to="/" className={`nav-link ${isActive('/')}`}>Home</Link>
         <Link to="/struttura" className={`nav-link ${isActive('/struttura')}`}>La Struttura</Link>
         <Link to="/territorio" className={`nav-link ${isActive('/territorio')}`}>Il Territorio</Link>
