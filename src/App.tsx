@@ -113,7 +113,7 @@ const Home = () => {
           <span className="eyebrow">Il Territorio</span>
           <h2 className="section-title">Esplora I Dintorni</h2>
           <p style={{ maxWidth: 700, margin: '0 auto 40px', color: '#666', fontSize: '1.2rem' }}>
-            Situata strategicamente a Scafati (in Via Bonifica 169), Imperial House è il punto di partenza perfetto per visitare gli Scavi di Pompei, la Penisola Sorrentina e Napoli.
+            Situata strategicamente a Scafati (in Via Bonifica 193), Imperial House è il punto di partenza perfetto per visitare gli Scavi di Pompei, la Penisola Sorrentina e Napoli.
           </p>
           <Link to="/territorio" className="btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '10px' }}>
             Scopri Cosa Fare <ChevronRight size={18} />
@@ -298,7 +298,7 @@ const Contatti = () => (
 
       <div style={{ marginTop: '80px' }}>
         <h3 style={{ fontSize: '1.3rem', marginBottom: '10px' }}>Dove Siamo</h3>
-        <p style={{ color: '#666' }}>Via Bonifica 169, 84018 Scafati (SA), Campania - Italia</p>
+        <p style={{ color: '#666' }}>Via Bonifica 193, 84018 Scafati (SA), Campania - Italia</p>
       </div>
     </div>
   </div>
